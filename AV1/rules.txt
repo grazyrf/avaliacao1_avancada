@@ -1,0 +1,14 @@
+      Regras de Distribuição de Rotas para Drivers
+      
+      
+- Cada Driver receberá 9 rotas no total
+
+- As rotas serão distribuídas igualmente entre os Drivers, de modo que cada Driver tenha 9 rotas para executar.
+
+- As rotas serão distribuídas sequencialmente aos Drivers. Por exemplo, o Driver 1 receberá as rotas de 1 a 9, o Driver 2 receberá as rotas de 10 a 18, e assim por diante.
+
+- Se o número de Drivers não for igualmente divisível pelo número de rotas, as rotas restantes serão distribuídas de forma cíclica entre os Drivers. Por exemplo, se houver 10 Drivers, o Driver 10 receberá as rotas de 91 a 99 e o Driver 1 receberá a rota 100, reiniciando o ciclo.
+
+- Essa distribuição equitativa garante que cada Driver tenha uma carga de trabalho justa e a oportunidade de executar rotas diferentes.
+
+      
