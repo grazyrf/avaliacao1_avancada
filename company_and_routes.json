@@ -1,0 +1,21 @@
+{
+  "companyInfo": {
+    "companyName": "Mobility Company",
+    "companyID": "COMP001",
+    "companyAccountNumber": "1234567890"
+  },
+  "routes": [
+    {
+      "routeID": "ROUTE001",
+      "routeName": "Rota 1",
+      "routeDescription": "Descrição da Rota 1",
+      "distanceInKilometers": 10.5
+    },
+    {
+      "routeID": "ROUTE002",
+      "routeName": "Rota 2",
+      "routeDescription": "Descrição da Rota 2",
+      "distanceInKilometers": 8.2
+    }
+  ]
+}
